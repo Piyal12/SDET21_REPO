@@ -15,4 +15,9 @@ public class ContactTest {
 	public void deleteContactTest() {
 		System.out.println("deleteContactTest is running");
 	}
+	
+	@Test(groups = "regressionTesting")
+	public void searchContactTest() {
+		System.out.println("searchContactTest is running");
+	}
 }
