@@ -3,6 +3,7 @@ package com.comcast.contactTest;
 import org.testng.annotations.Test;
 
 public class ContactTest {
+	
 	@Test(groups = "smokeTesting")
 	public void createContactTest() {
 		System.out.println("createContactTest is running");
