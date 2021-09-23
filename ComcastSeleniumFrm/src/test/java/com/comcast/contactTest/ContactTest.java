@@ -20,4 +20,8 @@ public class ContactTest {
 	public void searchContactTest() {
 		System.out.println("searchContactTest is running");
 	}
+	@Test(groups = "regressionTesting")
+	public void cloneContactTest() {
+		System.out.println("cloneContactTest is running");
+	}
 }
