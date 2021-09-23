@@ -3,7 +3,7 @@ package com.comcast.orgTest;
 import org.testng.annotations.Test;
 
 public class OrgTest {
-	@Test(groups = "smokeTesting")
+	@Test(groups = {"smokeTesting","regressionTesting"} )
 	public void createOrgTest() {
 		
 		System.out.println("execute createOrg Test");
