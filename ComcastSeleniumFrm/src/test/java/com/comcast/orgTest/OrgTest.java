@@ -15,5 +15,9 @@ public class OrgTest {
 	public void deleteOrgTest() {
 		System.out.println("deleteOrgTest is running");
 	}
+	@Test(groups = "regressionTesting")
+	public void searchOrgTest() {
+		System.out.println("searchOrgTest is running");
+	}
 
 }
